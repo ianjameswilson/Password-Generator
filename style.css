@@ -60,7 +60,8 @@ header {
 
 .card-footer::before {
   content: " ";
-  display: block;
+  display: flex;
+  align-item: center;
   width: 100%;
   background: #e7e9eb;
   height: 2px;
@@ -68,8 +69,10 @@ header {
 
 .card-footer::after {
   content: " ";
-  display: block;
+  display: flex;
   clear: both;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -100,7 +103,7 @@ button[disabled] {
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: bold;
   border: none;
   display: block;
   width: 100%;
@@ -134,4 +137,24 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+}
+
+.password-display {
+  background-color: transparent;
+  color: grey;
+  padding: 1rem;
+  border: 1px solid #333;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-color: grey;
+  border-radius: .5rem;
+  border-style: dashed;
+}
+
+label {
+  font-weight: bold;
 }
