@@ -1,6 +1,9 @@
 # Homework_Password-Generator
 Password Generator
 
+Based on the user story below, the codebase application within was written to generate random passwords that meet certain criteria to provide greater security. After the code was written, a refractor was performed and it was deemed that the code meets accessibility standards.
+
+
 User Story
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -22,3 +25,4 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
