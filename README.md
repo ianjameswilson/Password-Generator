@@ -1,4 +1,4 @@
-# Homework_Password-Generator
+# Password-Generator
 Password Generator
 
 https://ianjameswilson.github.io/Homework_Password-Generator/
